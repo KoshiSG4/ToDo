@@ -21,7 +21,6 @@ A modern, responsive To-Do application built with React + TypeScript, styled usi
 | ---------- | ----------------------- |
 | Framework  | React + TypeScript      |
 | Styling    | Tailwind CSS, ShadCN UI |
-| Animations | Framer Motion           |
 | Icons      | Lucide React            |
 | API        | Axios                   |
 | Build Tool | Vite                    |
