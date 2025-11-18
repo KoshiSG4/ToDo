@@ -24,6 +24,7 @@ A simple RESTful API for managing To-Do items. Built with Node.js, Express, and 
 
 ## Folder Structure
 
+```text
 backend/
 │── src/
 │ ├── models/
@@ -36,6 +37,7 @@ backend/
 │── package.json
 │── .env
 └── README.md
+```
 
 ## MongoDB Connection Notes
 
@@ -44,14 +46,20 @@ This project uses **MongoDB Atlas** (cloud database).
 ## Installation & Setup
 
 1. Install dependencies
+```bash
    npm install
+```
 
-2. Create .env file
+3. Create .env file
+```bash
    MONGODB_URI=your_mongo_db_uri
    FRONTEND_URL="http://localhost:5173"
+```
 
-3. Start the backend
+5. Start the backend
+```bash
    npm run dev
+```
 
 ## API Endpoints
 
