@@ -11,13 +11,10 @@ import {
 	updateTodo,
 } from '../api/todoApi';
 import { Trash2 } from 'lucide-react';
-import AnimatedList from '../components/AnimatedList';
 import { toast, Toaster } from 'sonner';
 
 const Home = () => {
 	const [todoList, setTodoList] = useState<Todo[]>([]);
-	const containerRef = useRef<HTMLDivElement>(null);
-	const [showFade, setShowFade] = useState(false);
 
 	useEffect(() => {
 		const fetchTodos = async () => {

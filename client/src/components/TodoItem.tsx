@@ -41,6 +41,7 @@ const TodoItem = ({ onSave, selectedTodo }: TodoFormProps) => {
 	const handleSubmit = (e: React.FormEvent) => {
 		e.preventDefault();
 		setOpenDialog(false);
+		setEditMode(false);
 		onSave(formData);
 	};
 	return (
