@@ -27,6 +27,7 @@ A modern, responsive To-Do application built with React + TypeScript, styled usi
 
 ## Project Structure
 
+```text
 frontend/
 │── src/
 │ ├── api/
@@ -49,17 +50,24 @@ frontend/
 │── package.json
 │── tailwind.config.ts
 └── README.md
+```
 
 ## Installation & Setup
 
 1. Install dependencies
+```bash
    npm install
+```
 
-2. Create .env file
+3. Create .env file
+```bash
    VITE_BASE_URL=http://localhost:5000/api/todos
+```
 
-3. Start the dev server
+5. Start the dev server
+```bash
    npm run dev
+```
 
 ## API Integration
 
